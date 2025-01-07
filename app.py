@@ -16,7 +16,7 @@ logging.basicConfig(
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="AI-Powered Content Summarizer", page_icon="🤖", layout="wide")
-st.title("Summary from Youtube and website")
+st.title("AI-Powered Content Summarizer")
 st.subheader("Enter a Youtube URL or a website URL to get a summary")
 
 
@@ -27,10 +27,9 @@ with st.sidebar:
    
 logging.debug(f"Groq API Key: {groq_api_key}")
 
-# Input fields
-st.subheader("👇🏻 Provide Input")
+
 generic_url = st.text_input(
-    "Enter a YouTube URL or Website URL",
+    "Enter a YouTube URL or Website URL 👇🏻",
     placeholder="https://www.example.com",
     help="Paste a valid YouTube video link or website URL here."
 )
@@ -72,7 +71,7 @@ if st.button("✨ Summarize Now"):
                 
                 # Display the summary
                 st.success("🎉 Summary Generated Successfully!")
-                st.markdown(f"**Summary:**\n{output_summary}")
+                st.warning(f"**Summary:**\n{output_summary}")
                    
         except Exception as e:
             st.error(f"An error occurred: {e}")
