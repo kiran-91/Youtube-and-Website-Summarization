@@ -1,6 +1,5 @@
 import validators
 import os
-from dotenv import load_dotenv 
 import logging
 import streamlit as st 
 from langchain.prompts import PromptTemplate
@@ -13,7 +12,6 @@ st.title("Summary from Youtube and website")
 st.subheader("Enter a Youtube URL or a website URL to get a summary")
 
 
-load_dotenv()
 with st.sidebar:
     groq_api_key=st.text_input("Enter your Groq API Key", type="password")
    
