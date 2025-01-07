@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq
+validators
+youtube_transcript_api
+streamlit 
+unstructured
+pytube
+python-dotenv
