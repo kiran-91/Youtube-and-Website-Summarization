@@ -73,16 +73,20 @@ This project is an **AI-driven application** designed to generate concise and ac
 
 ---
 
+## 📊 Results
+If you're on Team Lazy like me and would rather skip all the tasks, no worries—just kick back and check out the Streamlit app right here!
+
+👉 **[Youtube and Website Summarizer Streamlit App](https://ytsummarise.streamlit.app/)**
+
+---
+
 ## 💻 Usage
 
-1. Open the app in your browser (default: `http://localhost:8501`).
+1. Access the app by clicking the provided [link](https://ytsummarise.streamlit.app/) or, if running locally, navigate to `http://localhost:8501` in your browser after running the app with `streamlit run app.py`.
 2. Enter your **Groq API Key** in the sidebar.
 3. Input a **YouTube or website URL**.
 4. Click the **Summarize this URL** button.
 5. Enjoy your AI-generated summary! 🎉
-![alt text](image-1.png)
-![alt text](image.png)
-![alt text](image-2.png)
 
 ---
 
@@ -96,6 +100,13 @@ This project is an **AI-driven application** designed to generate concise and ac
 - A precise 300-word summary of the content.
 
 ---
+
+## 📸 Screenshots
+![alt text](image-1.png)
+![alt text](image.png)
+![alt text](image-2.png)
+
+--- 
 
 ## 🛠️ Troubleshooting
 
