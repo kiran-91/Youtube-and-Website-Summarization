@@ -21,9 +21,11 @@ st.subheader("Enter a Youtube URL or a website URL to get a summary")
 with st.sidebar:
         st.header("🔑 API Key Configuration")
         groq_api_key = st.text_input("Enter your Groq API Key", type="password", help="Your API key is required for summarization.")
+        if groq_api_key:
+            st.success("API Key set successfully")
         st.markdown("---")
    
-logging.debug(f"Groq API Key: {groq_api_key}")
+#logging.debug(f"Groq API Key: {groq_api_key}")
 
 
 generic_url = st.text_input(
@@ -69,7 +71,7 @@ if st.button("✨ Summarize Now"):
                 
                 # Display the summary
                 st.success("🎉 Summary Generated Successfully!")
-                st.warning(f"**Summary:**\n{output_summary}")
+                st.info(f"**Summary:**\n{output_summary}")
                    
         except Exception as e:
             st.error(f"An error occurred: {e}")
