@@ -80,6 +80,9 @@ This project is an **AI-driven application** designed to generate concise and ac
 3. Input a **YouTube or website URL**.
 4. Click the **Summarize this URL** button.
 5. Enjoy your AI-generated summary! 🎉
+![alt text](image-1.png)
+![alt text](image.png)
+![alt text](image-2.png)
 
 ---
 
